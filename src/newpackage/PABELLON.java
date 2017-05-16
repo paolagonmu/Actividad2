@@ -9,10 +9,12 @@ package newpackage;
  *
  * @author SENA
  */
-public class PABELLON {
+public class Pabellon {
    private int id;
     private String nombre;
-    private  EQUIPO EQUIPO1;
+    private  Equipo EQUIPO1;
+    private Clausura Clausura1;
+    
     public void setid(int idp)
     {
     this.id=idp;
@@ -33,13 +35,22 @@ public class PABELLON {
     return nombre;  
     }
     
-    public void setEQUIPO1(EQUIPO EQUIPO1p)
+    public void setEQUIPO1(Equipo EQUIPO1p)
     {
     this.EQUIPO1=EQUIPO1p;
     }
             
-    public EQUIPO EQUIPO1 () 
+    public Equipo EQUIPO1 () 
     { 
     return EQUIPO1;
-    }  
+    } 
+    public void setClausura1(Clausura Clausura1p)
+    {
+    this.EQUIPO1=Clausura1p;
+    }
+            
+    public Clausura Clausura1 () 
+    { 
+    return Clausura1;
+    }
 }
