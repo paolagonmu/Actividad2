@@ -9,6 +9,6 @@ package actividad2;
  *
  * @author sena
  */
-public class Estadistica extends Partido{
+public class Clausura {
     
 }
