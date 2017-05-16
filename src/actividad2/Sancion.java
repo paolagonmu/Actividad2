@@ -10,9 +10,16 @@ package actividad2;
  * @author sena
  */
 public class Sancion {
+    private Estadistica estadistica1;
    private String descripcion;
    private int numero_partidos;
-   
+    
+   public void SetEstadistica1(Estadistica estadistica1){
+       this.estadistica1=estadistica1;
+   }
+   public Estadistica GetEstadistica1(){
+       return estadistica1;
+   }
    public void SetDescripcion(String descripcionP){
        this.descripcion=descripcionP;
    }

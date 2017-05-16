@@ -10,5 +10,12 @@ package actividad2;
  * @author sena
  */
 public class Clausura {
+    private Clausura clausura1;
+    public void SetClausura1(Clausura clausura1){
+       this.clausura1=clausura1;
+   }
+   public Clausura Clausura1(){
+       return clausura1;
+   }
     
 }
