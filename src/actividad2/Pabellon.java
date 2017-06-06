@@ -10,30 +10,12 @@ package actividad2;
  * @author SENA
  */
 public class Pabellon {
-    private int id;
-    private String nombre;
+    
     private  Equipo EQUIPO1;
     private Clausura Clausura1;
     
-    public void setid(int idp)
-    {
-    this.id=idp;
-    }
     
-    public int getid () 
-    { 
-    return id;  
-    }
     
-    public void setnombre(String nombrep)
-    {
-    this.nombre=nombrep;
-    }
-    
-    public String getnombre () 
-    { 
-    return nombre;  
-    }
     
     public void setEQUIPO1(Equipo EQUIPO1p)
     {
