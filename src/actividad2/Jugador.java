@@ -13,6 +13,17 @@ public class Jugador {
       private int id;
     private String nombre;
     private  Equipo EQUIPO1;
+    private Partido parti1;
+    public void setParti1(Partido parti1p)
+    {
+    this.parti1=parti1p;
+    }
+            
+    public Partido parti1 () 
+    { 
+    return parti1;
+    }
+    
     public void setid(int idp)
     {
     this.id=idp;

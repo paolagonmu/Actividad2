@@ -9,7 +9,7 @@ package actividad2;
  *
  * @author sena
  */
-public class Clausura {
+public class Clausura extends Sancion {
    
     
 }
